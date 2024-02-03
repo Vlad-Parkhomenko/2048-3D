@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: MechanicsConfig
   m_EditorClassIdentifier: 
   <LaunchForce>k__BackingField: 30
+  <AimSpeed>k__BackingField: 15

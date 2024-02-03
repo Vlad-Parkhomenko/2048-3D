@@ -13,7 +13,6 @@ namespace Game2048
         private IInputController _inputController;
         private MechanicsConfig _mechanicsConfig;
         
-        
         [Inject]
         private void Construct(IInputController inputController, MechanicsConfig mechanicsConfig)
         {
@@ -25,7 +24,7 @@ namespace Game2048
 
         private void MoveCubeHorizontally(float delta)
         {
-            Cube.Rigidbody.velocity = Vector3.right * delta;
+            Cube.Rigidbody.velocity = Vector3.right * delta * Time.deltaTime * _mechanicsConfig.AimSpeed;
         }
 
         private void LaunchCube()

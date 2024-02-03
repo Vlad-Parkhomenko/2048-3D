@@ -6,5 +6,6 @@ namespace Game2048
     public class MechanicsConfig : ScriptableObject
     {
         [field: SerializeField] public float LaunchForce { get; private set; }
+        [field: SerializeField] public float AimSpeed { get; private set; }
     }
 }
