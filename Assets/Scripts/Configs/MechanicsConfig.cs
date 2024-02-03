@@ -7,5 +7,7 @@ namespace Game2048
     {
         [field: SerializeField] public float LaunchForce { get; private set; }
         [field: SerializeField] public float AimSpeed { get; private set; }
+        [field: SerializeField] public float SpawnCooldown { get; private set; }
+        [field: SerializeField] public Vector3 SpawnPosition { get; private set; }
     }
 }

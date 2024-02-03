@@ -274,6 +274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2627601868690516545, guid: 90091e851d86d3e448289efe5b05de2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -284,17 +288,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1852777908862452268, guid: 90091e851d86d3e448289efe5b05de2f, type: 3}
   m_PrefabInstance: {fileID: 279277148}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1372232318 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4749236108847572552, guid: 90091e851d86d3e448289efe5b05de2f, type: 3}
-  m_PrefabInstance: {fileID: 279277148}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d79bfb4b5597ec2469ea91d884a45ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1377167367
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,51 +368,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586368399}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5696691, y: 0.17443562, z: -1.1938787}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1608105777
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1608105779}
-  - component: {fileID: 1608105778}
-  m_Layer: 0
-  m_Name: CubeLauncher
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1608105778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1608105777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccad28859f0f5264ba50821a26d1894b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Cube: {fileID: 1372232318}
---- !u!4 &1608105779
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1608105777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.5696691, y: 0.17443562, z: -1.1938787}
@@ -664,6 +612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mechanicsConfig: {fileID: 11400000, guid: 1ce512d61c4cfd84ca39fc1637fc5dd7, type: 2}
+  _scoreCube: {fileID: 4749236108847572552, guid: 90091e851d86d3e448289efe5b05de2f, type: 3}
 --- !u!1 &2144162513
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,4 +712,3 @@ SceneRoots:
   - {fileID: 2144162514}
   - {fileID: 1586368401}
   - {fileID: 1679920156}
-  - {fileID: 1608105779}

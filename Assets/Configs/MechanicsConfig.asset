@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <LaunchForce>k__BackingField: 30
   <AimSpeed>k__BackingField: 15
+  <SpawnCooldown>k__BackingField: 1
+  <SpawnPosition>k__BackingField: {x: 0, y: 0.5, z: -7.3}
