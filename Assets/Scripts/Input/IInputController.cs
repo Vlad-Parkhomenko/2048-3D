@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System;
 
 namespace Game2048.PlayerInput
 {
     public interface IInputController
     {
-
+        event Action<float> InputChanged; 
+        event Action InputFinished;
     }
 }
