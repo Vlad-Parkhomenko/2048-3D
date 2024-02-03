@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6005012512393747793}
   - component: {fileID: 1167917852842410905}
   - component: {fileID: 724858737508419819}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BackEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5047699488867644496}
   - component: {fileID: 2497223905633274866}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FrontEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 384067654804536003}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: InvisibleEdges
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1504396957711663210}
   - component: {fileID: 532175590833670250}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BackEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 2397336759448109824}
   - component: {fileID: 1684444438949655651}
   - component: {fileID: 7123966413890427629}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LeftEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 3140585726166303414}
   - component: {fileID: 3267629275637847796}
   - component: {fileID: 9173241844798357558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RightEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -466,7 +466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5760375420076856080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: VisibleEdges
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,7 +503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 572523976498805077}
   - component: {fileID: 2939863451227571383}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TopEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7181173489198675906}
   - component: {fileID: 4870535641824550516}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RightEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,7 +608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4567562610650388477}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FieldEdges
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -644,7 +644,7 @@ GameObject:
   - component: {fileID: 6727413989703994419}
   - component: {fileID: 100778403352693548}
   - component: {fileID: 4404528465046563214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FrontEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -747,7 +747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2639184981013603316}
   - component: {fileID: 2564304000326617664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LeftEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 8709579271462248197}
   - component: {fileID: 3612758682435365012}
   - component: {fileID: 8361804299871718119}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BottomEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +881,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8636405317592562905}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c3c543fe356a11846a27ce0edd48b868, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

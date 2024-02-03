@@ -12,7 +12,7 @@ namespace Game2048.PlayerInput
         public event Action<float> InputChanged; 
         public event Action InputFinished;
         
-        private void Update()
+        private void FixedUpdate()
         {
             if (Input.GetKeyDown(_controlKey))
             {
