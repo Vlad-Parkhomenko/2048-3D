@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using Game2048.Configs;
 
 namespace Game2048.Gameplay
 {

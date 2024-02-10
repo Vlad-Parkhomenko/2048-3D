@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab989ffa6d2a85418ed622ed160ec04, type: 3}
+  m_Name: CubesConfig
+  m_EditorClassIdentifier: 
+  <CubeDataArray>k__BackingField:
+  - Id: 1
+    Score: 2
+    SpriteName: Cube2
+    AppearProbability: 75
+    Texture: {fileID: 2800000, guid: 51992a950dbe03444a0da014c0d97eb8, type: 3}
+  - Id: 2
+    Score: 4
+    SpriteName: Cube4
+    AppearProbability: 25
+    Texture: {fileID: 2800000, guid: bfe5053ed2bb5474a87aca8abab0ac24, type: 3}
+  _cubesAtlas: {fileID: 100100200, guid: 496330eff06c45544b80a910e3e84da3, type: 3}

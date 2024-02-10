@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Game2048
+namespace Game2048.Configs
 {
     [CreateAssetMenu(fileName = nameof(MechanicsConfig), menuName = "Configs/Mechanics Config")]
     public class MechanicsConfig : ScriptableObject

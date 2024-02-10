@@ -612,6 +612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mechanicsConfig: {fileID: 11400000, guid: 1ce512d61c4cfd84ca39fc1637fc5dd7, type: 2}
+  _cubesConfig: {fileID: 11400000, guid: df2a2fa95203e2f49b0b0ba66f6067da, type: 2}
   _scoreCube: {fileID: 4749236108847572552, guid: 90091e851d86d3e448289efe5b05de2f, type: 3}
 --- !u!1 &2144162513
 GameObject:
